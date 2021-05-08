@@ -22,6 +22,9 @@ Pixel Clock = 1500 x 800 x 60 = 72 MHz
 
 Here each component (R, G, B) is 1 bit wide hence only 8 different colours are possible.
 
-![Screenshot](cc.png)
+[Screenshot](cc.png)
 
-https://www.fpga4fun.com/PongGame.html
+https://www.fpga4fun.com/PongGame.html/
+
+
+![](cc.png)
