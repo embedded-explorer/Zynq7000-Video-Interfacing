@@ -21,4 +21,7 @@ Back Porch    - 28
 Pixel Clock = 1500 x 800 x 60 = 72 MHz
 
 Here each component (R, G, B) is 1 bit wide hence only 8 different colours are possible.
-![alt text](https://qphs.fs.quoracdn.net/main-qimg-deb7ca842460d73333326ef10b5dd551)
+
+![Screenshot](cc.png)
+
+[link text itself]: https://www.fpga4fun.com/PongGame.html
