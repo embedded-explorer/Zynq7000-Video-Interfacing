@@ -15,7 +15,7 @@ The Connection between the Board and VGA connector is as shown below.
 
 As we make use of only 4 bits out of 8 bits for displaying, some of details will be lost. The comparision between original image and displayed image is as shown below.
 
-
+![Output Image](lena_color.bmp)
 
 Reference</br>
 https://www.youtube.com/watch?v=_o4FbVFLbuw&list=PLXHMvqUANAFOviU0J8HSp0E91lLJInzX1&index=38
