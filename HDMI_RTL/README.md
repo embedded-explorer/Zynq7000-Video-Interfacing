@@ -1,6 +1,6 @@
-<h2 align="center">3-Bit VGA Interface</h2>
+<h2 align="center">HDMI Controller</h2>
 
-This is a simple project to control VGA monitor using Pynq Z2 board using verilog. This project makes use of HP 19ka monitor, optimal resolution supported by this monitor is 1366 x 768 at 60 Hz. The verilog source code includes logic to display 8 colour strip on the monitor.
+This is a simple project to control HDMI Display using Pynq Z2 board with the help of verilog. This project makes use of HP 19ka monitor, optimal resolution supported by this monitor is 1366 x 768 at 60 Hz. The verilog source code includes logic to display 8 colour strip on the monitor. As this monitor has only VGA interface a HDMI to VGA converter is used to connect the monitor.
 
 Timings for this resolution are as follows<br/>
 
@@ -20,15 +20,10 @@ Timings for this resolution are as follows<br/>
 * Sync Pulse    - 3
 * Back Porch    - 28
 
-Pixel Clock = 1500 x 800 x 60 = 72 MHz
+Pixel Clock = 1500 x 800 x 60 = 72 MHz</br>
+TMDS Clock = 10 x Pixel Clock = 720 MHz
 
-Here each component (R, G, B) is 1 bit wide hence only 8 different colours are possible.
+<h3>References</h3>
 
-![3-Bit Colour Code](cc.png)
-
-The Connection between the Board and VGA connector is as shown below.
-
-![Schematic](schematic.png)
-
-Reference</br>
-https://www.fpga4fun.com/PongGame.html/
+* https://forum.digikey.com/t/tmds-encoder-vhdl/12653
+* https://www.fpga4fun.com/HDMI.html
