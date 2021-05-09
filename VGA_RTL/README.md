@@ -26,5 +26,9 @@ Here each component (R, G, B) is 1 bit wide hence only 8 different colours are p
 
 ![3-Bit Colour Code](cc.png)
 
+The Connection between the Board and VGA connector is as shown below.
+
+![Schematic](schematic.png)
+
 Reference</br>
 https://www.fpga4fun.com/PongGame.html/
