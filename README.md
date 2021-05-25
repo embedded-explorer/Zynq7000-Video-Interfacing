@@ -1,3 +1,3 @@
-<h2 align="center">Zynq7000 Audio Video</h2>
+<h2 align="center">Zynq7000 Video</h2>
 
-This repo contains few audio and video projects targeting zynq7000 Pynq Z2 board.
+This repo contains few video interface and processing projects targeting zynq7000 Pynq Z2 board.
