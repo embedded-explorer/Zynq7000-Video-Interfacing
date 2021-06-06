@@ -1,8 +1,8 @@
-<h2 align="center">Zynq7000 Video</h2>
+# Zynq7000 Video Interfacing
 
-This repo contains few video interface and processing projects targeting zynq7000 Pynq Z2 board.
+This repository documents Interfacing HDMI and VGA with Pynq Z2 Board using Vivado block design and RTL.
 
-<h2 align="center">HDMI Controller</h2>
+## HDMI Controller
 
 This is a simple project to control HDMI Display using Pynq Z2 board with the help of verilog. This project makes use of HP 19ka monitor, optimal resolution supported by this monitor is 1366 x 768 at 60 Hz. The verilog source code includes logic to display 8 colour strip on the monitor. As this monitor has only VGA interface a HDMI to VGA converter is used to connect the monitor.
 
