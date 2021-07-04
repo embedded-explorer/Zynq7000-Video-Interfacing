@@ -50,7 +50,7 @@ This is a simple project to control VGA monitor using Pynq Z2 board. This projec
 
 The Connection between the Board and VGA connector is as shown below.
 
-![Schematic](Images/schematic.png)
+![Schematic](Images/schematic_8bit.png)
 
 ### Image Data Extraction
 
